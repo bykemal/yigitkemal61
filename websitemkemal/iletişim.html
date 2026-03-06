@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - Dünyanın 7 Harikası</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+    <div class="container">
+        <!-- Logo ve Yazı yan yana -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="resimler/dünyanın7harikasılogo.jpg" width="50" height="50" class="me-2" alt="Logo">
+            <span class="fw-bold">Dünyanın 7 Harikası</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Ana Menü</a></li>
+                <li class="nav-item"><a class="nav-link" href="hakkında.html">Hakkında</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Harikalar</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="Çinseddi.html">Çin Seddi (Çin)</a></li>
+                        <li><a class="dropdown-item" href="petra.html">Petra Antik Kent (Ürdün)</a></li>
+                        <li><a class="dropdown-item" href="kolezyum.html">Kolezyum (İtalya)</a></li>
+                        <li><a class="dropdown-item" href="Chichen.html">Chichen Itza (Meksika)</a></li>
+                        <li><a class="dropdown-item" href="machu.html">Machu Picchu (Peru)</a></li>
+                        <li><a class="dropdown-item" href="tac mahal.html">Tac Mahal (Hindistan)</a></li>
+                        <li><a class="dropdown-item" href="isaheykeli.html  ">Kurtarıcı İsa Heykeli (Brezilya)</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="iletişim.html">İletişim</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Main Content -->
+<div class="container my-5">
+    <div class="text-center mb-5">
+        <h1 class="fw-bold display-5">İletişim</h1>
+        <p class="lead text-secondary">Bizimle iletişime geçmek için aşağıdaki formu doldurabilir veya iletişim bilgilerimizi kullanabilirsiniz. Sorularınıza en kısa sürede yanıt vereceğiz.</p>
+    </div>
+
+    <div class="row g-4">
+        <!-- Form -->
+        <div class="col-lg-6">
+            <div class="card shadow-sm rounded border-0 p-4">
+                <h5 class="fw-bold mb-3">Bize Mesaj Gönderin</h5>
+                <form>
+                    <div class="mb-3">
+                        <label for="isim" class="form-label">Adınız Soyadınız</label>
+                        <input type="text" class="form-control" id="isim" placeholder="Adınız Soyadınız">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-posta Adresiniz</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="mesaj" class="form-label">Mesajınız</label>
+                        <textarea class="form-control" id="mesaj" rows="5" placeholder="Mesajınızı yazın..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100 fw-bold">Gönder</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- İletişim Bilgileri + Harita -->
+        <div class="col-lg-6">
+            <div class="card shadow-sm rounded border-0 p-4 mb-4">
+                <h5 class="fw-bold mb-3">İletişim Bilgilerimiz</h5>
+                <p class="mb-2"><strong>E-posta:</strong> ByKemal@dunyaharikasi.com</p>
+                <p class="mb-2"><strong>Telefon:</strong> +90 6161 6161 6161 6161</p>
+                <p class="mb-2"><strong>Adres:</strong> Trabzon, Türkiye</p>
+            </div>  
+            <div class="ratio ratio-16x9 shadow-sm rounded">
+                <iframe 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48183.58291612335!2d39.6900604726252!3d40.99299890133905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40643c066bf2ec89%3A0xc4390aca748c2b71!2sTrabzon%2C%20Ortahisar%2FTrabzon!5e0!3m2!1str!2str!4v1772787031096!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
